@@ -1,4 +1,4 @@
-entrypoint: "gunicorn -b :$PORT zoo_1:app"
+entrypoint: "gunicorn -b :$PORT zoo:app"
 env: flex
 runtime: python
 runtime_config:
